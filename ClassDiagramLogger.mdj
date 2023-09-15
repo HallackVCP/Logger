@@ -163,6 +163,7 @@
 											"top": 276,
 											"width": 81.2880859375,
 											"height": 13,
+											"underline": true,
 											"text": "-HEADER",
 											"horizontalAlignment": 0
 										}
@@ -873,6 +874,7 @@
 							},
 							"name": "HEADER",
 							"visibility": "private",
+							"isStatic": true,
 							"type": ""
 						}
 					],

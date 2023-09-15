@@ -9,12 +9,12 @@ public class Logger implements ILogger{
     private static String HEADER = "Registrando log da operacao: ";
 
 
-    private static Logger logger = new Logger();
+    private static Logger instance = new Logger();
 
     private Logger(){}
 
     public static Logger getInstance(){
-        return logger;
+        return instance;
     }
 
     public String getMsg() {
