@@ -35,6 +35,6 @@ public class Logger implements ILogger{
 
     @Override
     public String registerLog() {
-        return HEADER + this.getOperacao() + this.getMsg();
+        return HEADER + this.getOperacao() + " " + this.getMsg();
     }
 }

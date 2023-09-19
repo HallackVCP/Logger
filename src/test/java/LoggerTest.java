@@ -11,7 +11,7 @@ public class LoggerTest {
 
     private static String HEADER = "Registrando log da operacao: ";
 
-    static String LOG_RETURN = HEADER + OPERACAO + MSG;
+    static String LOG_RETURN = HEADER + OPERACAO + " " + MSG;
 
 
     @Test
